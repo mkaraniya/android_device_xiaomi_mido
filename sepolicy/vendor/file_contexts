@@ -46,3 +46,5 @@
 /sys/devices/platform/kcal_ctrl.0(/.*)?                                     u:object_r:sysfs_kcal:s0
 /sys/devices/virtual/timed_output/vibrator/vtg_level u:object_r:sysfs_vibrator:s0
 
+# Thermal
+/sys/class/thermal/thermal_message(/.*)?                      u:object_r:sysfs_thermal:s0
