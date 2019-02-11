@@ -25,10 +25,10 @@ $(call inherit-product, device/xiaomi/mido/device.mk)
 $(call inherit-product, vendor/aosip/config/common_full_phone.mk)
 
 # Official AOSiP flag
-AOSiP_BUILD_TYPE = OFFICIAL
+AOSiP_BUILD_TYPE=Premium
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-  DEVICE_MAINTAINERS="ERICK"
+  DEVICE_MAINTAINERS="SMOKEY"
   
 # Boot Animation res
 TARGET_BOOT_ANIMATION_RES := 1080
