@@ -19,6 +19,14 @@ include $(CLEAR_VARS)
 LOCAL_SHARED_LIBRARIES := \
     liblog
 
+LOCAL_SRC_FILES := \
+    $(call all-java-files-under, src) \
+    $(call all-Iaidl-files-under, src)
+
+LOCAL_AIDL_INCLUDES := \
+    $(call all-Iaidl-files-under, src)
+k
+
 LOCAL_SRC_FILES := fakelogprint/fakelogprint.cpp
 
 LOCAL_MODULE := fakelogprint
