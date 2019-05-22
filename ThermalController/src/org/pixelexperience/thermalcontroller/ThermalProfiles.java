@@ -31,8 +31,8 @@ public class ThermalProfiles {
     public static final int MODE_PUBG = 13;
     public static final int MODE_VIDEO = 14;
 
-    public static final int supportedProfiles[] = {MODE_DEFAULT, MODE_DIALER, MODE_GAME,
-        MODE_PERFORMANCE, MODE_BROWSER, MODE_CAMERA, MODE_PUBG, MODE_VIDEO};
+    public static final int supportedProfiles[] = {MODE_DEFAULT, MODE_GAME,
+        MODE_PUBG, MODE_HIGH, MODE_CAMERA};
 
     private static final String TAG = "ThermalController:ThermalProfiles";
 
@@ -45,7 +45,7 @@ public class ThermalProfiles {
             case "com.antutu.benchmark.full":
             case "com.futuremark.dmandroid.application":
             case "com.primatelabs.geekbench":
-                return MODE_PERFORMANCE;
+                return MODE_HIGH;
             case "com.tencent.ig":
             case "com.dts.freefireth":
             case "com.epicgames.fortnite":
