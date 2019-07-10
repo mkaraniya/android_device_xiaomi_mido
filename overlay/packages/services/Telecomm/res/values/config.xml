@@ -22,18 +22,4 @@
 
     <!-- Flag indicating if the tty is enabled -->
     <bool name="tty_enabled">true</bool>
-
-    <!-- Thermal control per app -->
-    <string-array name="thermal_control_per_app_entries" translatable="false">
-        <item>@string/thermal_control_per_app_default</item>
-        <item>@string/thermal_control_per_app_games</item>
-        <item>@string/thermal_control_per_app_benchmark</item>
-        <item>@string/thermal_control_per_app_camera</item>
-    </string-array>
-    <string-array name="thermal_control_per_app_values" translatable="false">
-        <item>0</item>
-        <item>9</item>
-        <item>1</item>
-        <item>33</item>
-    </string-array>
 </resources>
