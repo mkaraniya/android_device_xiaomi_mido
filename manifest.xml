@@ -249,8 +249,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
             <name>IDevice</name>
             <instance>default</instance>
         </interface>
-<<<<<<< HEAD
-=======
     </hal>
     <hal format="hidl">
        <name>android.hardware.secure_element</name>
@@ -261,7 +259,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
            <instance>SIM1</instance>
            <instance>SIM2</instance>
        </interface>
->>>>>>> 358c720... mido: Update manifest entries
     </hal>
     <hal format="hidl">
         <name>android.hardware.sensors</name>
