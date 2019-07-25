@@ -1,10 +1,20 @@
 [
  {
-   "repository": "android_packages_resources_devicesettings",
-   "target_path": "packages/resources/devicesettings"
+   "remote": "evo-devices",
+   "repository": "device_xiaomi_mido",
+   "target_path": "device/xiaomi/mido",
+   "branch": "pie"
  },
  {
-   "repository": "android_kernel_xiaomi_msm8953",
-   "target_path": "kernel/xiaomi/msm8953"
+   "remote": "evo-devices",
+   "repository": "vendor_xiaomi_mido",
+   "target_path": "vendor/xiaomi",
+   "branch": "pie"
+ },
+ {
+   "remote": "github",
+   "repository": "penglezos/android_kernel_xiaomi_msm8953",
+   "target_path": "kernel/xiaomi/msm8953",
+   "branch": "pie"
  }
 ]
