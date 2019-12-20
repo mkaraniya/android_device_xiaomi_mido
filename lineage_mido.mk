@@ -28,7 +28,8 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 AOSiP_BUILD_TYPE=Premium
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-  DEVICE_MAINTAINERS="TeKnoways"
+  DEVICE_MAINTAINERS="TeKnoways" \
+  FULL CREDITS= "@shashank1436" AND "SMOKEY"
   
 # Boot Animation res
 TARGET_BOOT_ANIMATION_RES := 1080
