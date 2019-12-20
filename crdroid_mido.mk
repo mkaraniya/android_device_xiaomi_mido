@@ -28,16 +28,16 @@ $(call inherit-product, vendor/aosip/config/common_full_phone.mk)
 AOSiP_BUILD_TYPE=Premium
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-  DEVICE_MAINTAINERS="SMOKEY"
+  DEVICE_MAINTAINERS="TeKnoways"
   
 # Boot Animation res
 TARGET_BOOT_ANIMATION_RES := 1080
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := mido
-PRODUCT_NAME := aosip_mido
+PRODUCT_NAME := crdroid_mido
 PRODUCT_BRAND := Xiaomi
-PRODUCT_MODEL := Redmi Note 4
+PRODUCT_MODEL := Redmi Note 4 / 4X
 PRODUCT_MANUFACTURER := Xiaomi
 TARGET_VENDOR := Xiaomi
 BOARD_VENDOR := Xiaomi
